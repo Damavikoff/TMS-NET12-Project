@@ -1,0 +1,15 @@
+C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Domain\bin\Debug\net7.0\App.Domain.deps.json
+C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Domain\bin\Debug\net7.0\App.Domain.dll
+C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Domain\bin\Debug\net7.0\App.Domain.pdb
+C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Domain\obj\Debug\net7.0\App.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Domain\obj\Debug\net7.0\App.Domain.AssemblyInfoInputs.cache
+C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Domain\obj\Debug\net7.0\App.Domain.AssemblyInfo.cs
+C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Domain\obj\Debug\net7.0\App.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Domain\obj\Debug\net7.0\App.Domain.dll
+C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Domain\obj\Debug\net7.0\refint\App.Domain.dll
+C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Domain\obj\Debug\net7.0\App.Domain.pdb
+C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Domain\obj\Debug\net7.0\ref\App.Domain.dll
+C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Domain\bin\Debug\net7.0\App.Common.dll
+C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Domain\bin\Debug\net7.0\App.Common.pdb
+C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Domain\obj\Debug\net7.0\App.Domain.csproj.AssemblyReference.cache
+C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Domain\obj\Debug\net7.0\App.Domain.csproj.CopyComplete
