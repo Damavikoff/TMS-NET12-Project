@@ -11,7 +11,6 @@ namespace App.Common.Exceptions
             this.Message = message;
             this.StatusCode = code;
         }
-
         public AppException(string message) : this(message, HttpStatusCode.InternalServerError) { }
     }
 }

@@ -16,9 +16,9 @@ namespace PlantsStore.Controllers
         }
 
         [HttpGet]
-        public IDictionary<string, object> GetInitData()
+        public async Task<IDictionary<string, object?>> GetInitData()
         {
-            return _initService.GetInitData();
+            return await _initService.GetInitData();
         }
     }
 }

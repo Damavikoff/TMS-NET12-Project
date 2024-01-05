@@ -5,6 +5,6 @@ namespace App.Infrastructure.Repositories
 {
     public class TagRepository : DictionaryRepository<Tag, Guid>
     {
-        public TagRepository(ApplicationContext context) : base(context) { }
+        public TagRepository(ApplicationDbContext context) : base(context) { }
     }
 }

@@ -2,6 +2,6 @@
 {
     internal interface IDictionaryRepository<T, E> : IRepository<T, E>
     {
-        public IEnumerable<T> GetAllOrderByTitle();
+        public Task<IEnumerable<T>> GetAllOrderByTitleAsync();
     }
 }

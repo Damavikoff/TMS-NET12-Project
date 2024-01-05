@@ -14,5 +14,8 @@ namespace App.Domain.Entities
         public required string Title { get; set; }
         [Column("label")]
         public required string Label { get; set; }
+        [Column("position")]
+        public required int Position { get; set; }
+        public virtual ICollection<Product> Products { get; set; } = new List<Product>();
     }
 }

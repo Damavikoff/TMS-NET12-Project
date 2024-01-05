@@ -7,7 +7,9 @@ namespace App.Domain.Entities
     {
         [Column("product_id")]
         public Guid ProductId { get; set; }
+        public virtual required Product Product { get; set; }
         [Column("tag_id")]
         public Guid TagId { get; set; }
+        public virtual required Tag Tag { get; set; }
     }
 }

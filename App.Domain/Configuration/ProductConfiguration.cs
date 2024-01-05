@@ -11,18 +11,20 @@ namespace App.Domain.Configuration
             builder.HasMany(l => l.Sizes)
             .WithMany()
             .UsingEntity<ProductSize>(
-                x => {
-                    x.HasOne<Product>().WithMany().HasForeignKey("ProductId");
-                    x.HasOne<Size>().WithMany().HasForeignKey("SizeId");
+                x =>
+                {
+                    x.HasOne(v => v.Product).WithMany().HasForeignKey(v => v.ProductId);
+                    x.HasOne(v => v.Size).WithMany().HasForeignKey(v => v.SizeId);
                 }
             );
 
-            builder.HasMany(l => l.Sizes)
+            builder.HasMany(l => l.Tags)
             .WithMany()
             .UsingEntity<ProductTag>(
-                x => {
-                    x.HasOne<Product>().WithMany().HasForeignKey("ProductId");
-                    x.HasOne<Tag>().WithMany().HasForeignKey("TagId");
+                x =>
+                {
+                    x.HasOne(v => v.Product).WithMany().HasForeignKey(v => v.ProductId);
+                    x.HasOne(v => v.Tag).WithMany().HasForeignKey(v => v.TagId);
                 }
             );
         }

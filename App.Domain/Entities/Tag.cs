@@ -5,7 +5,7 @@ using App.Domain.Interfaces;
 namespace App.Domain.Entities
 {
     [Table("p_tags")]
-    public class Tag :IDictionaryEntity<Guid>
+    public class Tag : IDictionaryEntity<Guid>
     {
         [Key]
         [Column("id")]

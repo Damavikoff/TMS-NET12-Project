@@ -2,16 +2,17 @@
 {
     public interface IRepository<T, E>
     {
-        public IEnumerable<T> GetAll();
-        public T GetById(E id);
-        public bool Remove(E id);
+        public Task<IEnumerable<T>> GetAllAsync();
+        public Task<T> GetByIdAsync(E id);
+        public Task<IEnumerable<T>> GetAllByIdInAsync(IEnumerable<E> list);
+        public T Update(T entry);
+        public IEnumerable<T> Update(IEnumerable<T> list);
+        public Task<bool> RemoveAsync(E id);
         public bool Remove(T entry);
-        public void Delete(E id);
-        public void Delete(T entry);
-        public void Update(T entry);
-        public void Update(IEnumerable<T> list);
-        public void Save(T entry);
-        public void Save(IEnumerable<T> list);
-        public void Flush();
+        public Task DeleteAsync(E id);
+        public Task DeleteAsync(T entry);
+        public Task SaveAsync(T entry);
+        public Task SaveAsync(IEnumerable<T> list);
+        public Task FlushAsync();
     }
 }

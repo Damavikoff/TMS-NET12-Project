@@ -1,244 +1,896 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\AboutView-0fae67f2.js",
+      "PackagePath": "staticwebassets\\assets\\AboutView-0fae67f2.js"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\AboutView-4d995ba2.css",
+      "PackagePath": "staticwebassets\\assets\\AboutView-4d995ba2.css"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Black-2d4005bb.woff",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Black-2d4005bb.woff"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Black-4769aaf1.ttf",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Black-4769aaf1.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Black-571e696b.woff2",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Black-571e696b.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Black-c57d8070.eot",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Black-c57d8070.eot"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-BlackItalic-6adc9f67.woff",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-BlackItalic-6adc9f67.woff"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-BlackItalic-a44a6513.eot",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-BlackItalic-a44a6513.eot"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-BlackItalic-ab76e64b.ttf",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-BlackItalic-ab76e64b.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-BlackItalic-db56c0f1.woff2",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-BlackItalic-db56c0f1.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Bold-718369c9.eot",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Bold-718369c9.eot"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Bold-7845a286.woff2",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Bold-7845a286.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Bold-9fd654c1.ttf",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Bold-9fd654c1.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Bold-c048af14.woff",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Bold-c048af14.woff"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-BoldItalic-5e9a15aa.ttf",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-BoldItalic-5e9a15aa.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-BoldItalic-72db3c78.eot",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-BoldItalic-72db3c78.eot"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-BoldItalic-7488b050.woff2",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-BoldItalic-7488b050.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-BoldItalic-b51eec1e.woff",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-BoldItalic-b51eec1e.woff"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Light-164f6f94.woff2",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Light-164f6f94.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Light-3e458fcd.ttf",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Light-3e458fcd.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Light-7e3b80b5.woff",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Light-7e3b80b5.woff"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Light-b168da5f.eot",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Light-b168da5f.eot"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-LightItalic-5ae8b7b2.woff",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-LightItalic-5ae8b7b2.woff"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-LightItalic-76891f61.woff2",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-LightItalic-76891f61.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-LightItalic-830cd068.eot",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-LightItalic-830cd068.eot"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-LightItalic-e6e5d9be.ttf",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-LightItalic-e6e5d9be.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Medium-3bfe302a.woff",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Medium-3bfe302a.woff"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Medium-69f1b539.ttf",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Medium-69f1b539.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Medium-75f8133e.eot",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Medium-75f8133e.eot"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Medium-bed96a75.woff2",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Medium-bed96a75.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-MediumItalic-48684800.eot",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-MediumItalic-48684800.eot"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-MediumItalic-69f01e16.ttf",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-MediumItalic-69f01e16.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-MediumItalic-83bbf789.woff2",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-MediumItalic-83bbf789.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-MediumItalic-92d1ca13.woff",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-MediumItalic-92d1ca13.woff"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Regular-05477341.woff",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Regular-05477341.woff"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Regular-21c63b1a.ttf",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Regular-21c63b1a.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Regular-72dcc70d.eot",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Regular-72dcc70d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Regular-8b366c1d.woff2",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Regular-8b366c1d.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-RegularItalic-19f9dd7a.eot",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-RegularItalic-19f9dd7a.eot"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-RegularItalic-1f48836e.woff2",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-RegularItalic-1f48836e.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-RegularItalic-3d629b1f.woff",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-RegularItalic-3d629b1f.woff"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-RegularItalic-c441676a.ttf",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-RegularItalic-c441676a.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Thin-632831a9.woff",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Thin-632831a9.woff"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Thin-a078deee.eot",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Thin-a078deee.eot"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Thin-a5a3fa97.woff2",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Thin-a5a3fa97.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Thin-c1389987.ttf",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-Thin-c1389987.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-ThinItalic-2378c900.woff",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-ThinItalic-2378c900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-ThinItalic-3e9a071a.ttf",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-ThinItalic-3e9a071a.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-ThinItalic-d6e70e2d.eot",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-ThinItalic-d6e70e2d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-ThinItalic-f820f078.woff2",
+      "PackagePath": "staticwebassets\\assets\\CeraPro-ThinItalic-f820f078.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\icofont-1cf23f38.eot",
+      "PackagePath": "staticwebassets\\assets\\icofont-1cf23f38.eot"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\icofont-242e5428.woff2",
+      "PackagePath": "staticwebassets\\assets\\icofont-242e5428.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\icofont-40bcda4c.ttf",
+      "PackagePath": "staticwebassets\\assets\\icofont-40bcda4c.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\icofont-41ed611e.svg",
+      "PackagePath": "staticwebassets\\assets\\icofont-41ed611e.svg"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\icofont-53bbbda5.woff",
+      "PackagePath": "staticwebassets\\assets\\icofont-53bbbda5.woff"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\index-c81274cc.css",
+      "PackagePath": "staticwebassets\\assets\\index-c81274cc.css"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\index-f68daf33.js",
+      "PackagePath": "staticwebassets\\assets\\index-f68daf33.js"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\payment-512c0d4d.png",
+      "PackagePath": "staticwebassets\\assets\\payment-512c0d4d.png"
     },
     {
       "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\blog_posts\\post-1.png",
+      "PackagePath": "staticwebassets\\images\\blog_posts\\post-1.png"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\blog_posts\\post-2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog_posts\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\blog_posts\\post-3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog_posts\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\blog_posts\\post-4.jpg",
+      "PackagePath": "staticwebassets\\images\\blog_posts\\post-4.jpg"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\default_preview.png",
+      "PackagePath": "staticwebassets\\images\\default_preview.png"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\01eac465-037e-41bd-933a-73fe30b5cc72_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\01eac465-037e-41bd-933a-73fe30b5cc72_0.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\01eac465-037e-41bd-933a-73fe30b5cc72_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\01eac465-037e-41bd-933a-73fe30b5cc72_1.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\01eac465-037e-41bd-933a-73fe30b5cc72_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\01eac465-037e-41bd-933a-73fe30b5cc72_2.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\01eac465-037e-41bd-933a-73fe30b5cc72_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\01eac465-037e-41bd-933a-73fe30b5cc72_3.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\04b33449-f765-4ed1-9c59-8c9482ece27f_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\04b33449-f765-4ed1-9c59-8c9482ece27f_0.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\04b33449-f765-4ed1-9c59-8c9482ece27f_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\04b33449-f765-4ed1-9c59-8c9482ece27f_1.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\04b33449-f765-4ed1-9c59-8c9482ece27f_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\04b33449-f765-4ed1-9c59-8c9482ece27f_2.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\04b33449-f765-4ed1-9c59-8c9482ece27f_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\04b33449-f765-4ed1-9c59-8c9482ece27f_3.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\04b33449-f765-4ed1-9c59-8c9482ece27f_4.webp",
+      "PackagePath": "staticwebassets\\images\\products\\04b33449-f765-4ed1-9c59-8c9482ece27f_4.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\04b33449-f765-4ed1-9c59-8c9482ece27f_5.webp",
+      "PackagePath": "staticwebassets\\images\\products\\04b33449-f765-4ed1-9c59-8c9482ece27f_5.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\0abc44cd-9e28-4d42-b2b2-77a5e4f794dd_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\0abc44cd-9e28-4d42-b2b2-77a5e4f794dd_0.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\0abc44cd-9e28-4d42-b2b2-77a5e4f794dd_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\0abc44cd-9e28-4d42-b2b2-77a5e4f794dd_1.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\0abc44cd-9e28-4d42-b2b2-77a5e4f794dd_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\0abc44cd-9e28-4d42-b2b2-77a5e4f794dd_2.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\0abc44cd-9e28-4d42-b2b2-77a5e4f794dd_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\0abc44cd-9e28-4d42-b2b2-77a5e4f794dd_3.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\195c4754-31b5-42e3-88b1-134b527c9ea6_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\195c4754-31b5-42e3-88b1-134b527c9ea6_0.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\195c4754-31b5-42e3-88b1-134b527c9ea6_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\195c4754-31b5-42e3-88b1-134b527c9ea6_1.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\195c4754-31b5-42e3-88b1-134b527c9ea6_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\195c4754-31b5-42e3-88b1-134b527c9ea6_2.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\195c4754-31b5-42e3-88b1-134b527c9ea6_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\195c4754-31b5-42e3-88b1-134b527c9ea6_3.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\197228e4-20bb-4cbd-b41d-aff7ea7fa91f_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\197228e4-20bb-4cbd-b41d-aff7ea7fa91f_0.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\197228e4-20bb-4cbd-b41d-aff7ea7fa91f_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\197228e4-20bb-4cbd-b41d-aff7ea7fa91f_1.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\197228e4-20bb-4cbd-b41d-aff7ea7fa91f_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\197228e4-20bb-4cbd-b41d-aff7ea7fa91f_2.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\197228e4-20bb-4cbd-b41d-aff7ea7fa91f_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\197228e4-20bb-4cbd-b41d-aff7ea7fa91f_3.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1993b492-69c1-4f52-88a3-75d3f06eaefc_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1993b492-69c1-4f52-88a3-75d3f06eaefc_0.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1993b492-69c1-4f52-88a3-75d3f06eaefc_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1993b492-69c1-4f52-88a3-75d3f06eaefc_1.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1993b492-69c1-4f52-88a3-75d3f06eaefc_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1993b492-69c1-4f52-88a3-75d3f06eaefc_2.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1993b492-69c1-4f52-88a3-75d3f06eaefc_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1993b492-69c1-4f52-88a3-75d3f06eaefc_3.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1a96a444-d2bd-42df-b529-fbb3c27c1abd_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1a96a444-d2bd-42df-b529-fbb3c27c1abd_0.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1a96a444-d2bd-42df-b529-fbb3c27c1abd_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1a96a444-d2bd-42df-b529-fbb3c27c1abd_1.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1a96a444-d2bd-42df-b529-fbb3c27c1abd_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1a96a444-d2bd-42df-b529-fbb3c27c1abd_2.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1a96a444-d2bd-42df-b529-fbb3c27c1abd_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1a96a444-d2bd-42df-b529-fbb3c27c1abd_3.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1a96a444-d2bd-42df-b529-fbb3c27c1abd_4.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1a96a444-d2bd-42df-b529-fbb3c27c1abd_4.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1a96a444-d2bd-42df-b529-fbb3c27c1abd_5.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1a96a444-d2bd-42df-b529-fbb3c27c1abd_5.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1b65875d-6c4a-4506-87c9-2ad33f19aa07_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1b65875d-6c4a-4506-87c9-2ad33f19aa07_0.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1b65875d-6c4a-4506-87c9-2ad33f19aa07_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1b65875d-6c4a-4506-87c9-2ad33f19aa07_1.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1b65875d-6c4a-4506-87c9-2ad33f19aa07_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1b65875d-6c4a-4506-87c9-2ad33f19aa07_2.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1b65875d-6c4a-4506-87c9-2ad33f19aa07_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1b65875d-6c4a-4506-87c9-2ad33f19aa07_3.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1c035481-5f49-44ae-a2c2-3813dbdad10a_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1c035481-5f49-44ae-a2c2-3813dbdad10a_0.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1c035481-5f49-44ae-a2c2-3813dbdad10a_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1c035481-5f49-44ae-a2c2-3813dbdad10a_1.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1c035481-5f49-44ae-a2c2-3813dbdad10a_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1c035481-5f49-44ae-a2c2-3813dbdad10a_2.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1c035481-5f49-44ae-a2c2-3813dbdad10a_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1c035481-5f49-44ae-a2c2-3813dbdad10a_3.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1c035481-5f49-44ae-a2c2-3813dbdad10a_4.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1c035481-5f49-44ae-a2c2-3813dbdad10a_4.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1e338d98-60f2-44ff-8151-a46cfcc386dd_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1e338d98-60f2-44ff-8151-a46cfcc386dd_0.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1e338d98-60f2-44ff-8151-a46cfcc386dd_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1e338d98-60f2-44ff-8151-a46cfcc386dd_1.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1e338d98-60f2-44ff-8151-a46cfcc386dd_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1e338d98-60f2-44ff-8151-a46cfcc386dd_2.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\1e338d98-60f2-44ff-8151-a46cfcc386dd_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\1e338d98-60f2-44ff-8151-a46cfcc386dd_3.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\32b771a5-91ab-4ffa-8643-34d5f463170f_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\32b771a5-91ab-4ffa-8643-34d5f463170f_0.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\32b771a5-91ab-4ffa-8643-34d5f463170f_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\32b771a5-91ab-4ffa-8643-34d5f463170f_1.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\32b771a5-91ab-4ffa-8643-34d5f463170f_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\32b771a5-91ab-4ffa-8643-34d5f463170f_2.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\32b771a5-91ab-4ffa-8643-34d5f463170f_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\32b771a5-91ab-4ffa-8643-34d5f463170f_3.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\32b771a5-91ab-4ffa-8643-34d5f463170f_4.webp",
+      "PackagePath": "staticwebassets\\images\\products\\32b771a5-91ab-4ffa-8643-34d5f463170f_4.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\32b771a5-91ab-4ffa-8643-34d5f463170f_5.webp",
+      "PackagePath": "staticwebassets\\images\\products\\32b771a5-91ab-4ffa-8643-34d5f463170f_5.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\369e05aa-bd18-4e65-b939-66b0f6f3edfd_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\369e05aa-bd18-4e65-b939-66b0f6f3edfd_0.webp"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\369e05aa-bd18-4e65-b939-66b0f6f3edfd_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\369e05aa-bd18-4e65-b939-66b0f6f3edfd_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\369e05aa-bd18-4e65-b939-66b0f6f3edfd_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\369e05aa-bd18-4e65-b939-66b0f6f3edfd_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\369e05aa-bd18-4e65-b939-66b0f6f3edfd_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\369e05aa-bd18-4e65-b939-66b0f6f3edfd_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\369e05aa-bd18-4e65-b939-66b0f6f3edfd_4.webp",
+      "PackagePath": "staticwebassets\\images\\products\\369e05aa-bd18-4e65-b939-66b0f6f3edfd_4.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\369e05aa-bd18-4e65-b939-66b0f6f3edfd_5.webp",
+      "PackagePath": "staticwebassets\\images\\products\\369e05aa-bd18-4e65-b939-66b0f6f3edfd_5.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\38000058-27de-47ab-8632-707f905e2d21_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\38000058-27de-47ab-8632-707f905e2d21_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\38000058-27de-47ab-8632-707f905e2d21_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\38000058-27de-47ab-8632-707f905e2d21_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\38000058-27de-47ab-8632-707f905e2d21_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\38000058-27de-47ab-8632-707f905e2d21_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\38000058-27de-47ab-8632-707f905e2d21_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\38000058-27de-47ab-8632-707f905e2d21_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\3b660ba7-59b5-4e68-a4c4-6c85c162f947_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\3b660ba7-59b5-4e68-a4c4-6c85c162f947_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\3b660ba7-59b5-4e68-a4c4-6c85c162f947_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\3b660ba7-59b5-4e68-a4c4-6c85c162f947_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\3b660ba7-59b5-4e68-a4c4-6c85c162f947_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\3b660ba7-59b5-4e68-a4c4-6c85c162f947_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\3b660ba7-59b5-4e68-a4c4-6c85c162f947_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\3b660ba7-59b5-4e68-a4c4-6c85c162f947_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\45cd3f37-8ed8-4738-88d4-b5bda185f1ef_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\45cd3f37-8ed8-4738-88d4-b5bda185f1ef_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\45cd3f37-8ed8-4738-88d4-b5bda185f1ef_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\45cd3f37-8ed8-4738-88d4-b5bda185f1ef_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\45cd3f37-8ed8-4738-88d4-b5bda185f1ef_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\45cd3f37-8ed8-4738-88d4-b5bda185f1ef_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\45cd3f37-8ed8-4738-88d4-b5bda185f1ef_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\45cd3f37-8ed8-4738-88d4-b5bda185f1ef_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\45e05d7d-48b8-422a-a92c-faa35a1ad303_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\45e05d7d-48b8-422a-a92c-faa35a1ad303_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\45e05d7d-48b8-422a-a92c-faa35a1ad303_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\45e05d7d-48b8-422a-a92c-faa35a1ad303_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\45e05d7d-48b8-422a-a92c-faa35a1ad303_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\45e05d7d-48b8-422a-a92c-faa35a1ad303_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\45e05d7d-48b8-422a-a92c-faa35a1ad303_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\45e05d7d-48b8-422a-a92c-faa35a1ad303_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\54e6a1e2-d6d6-4bad-a3a6-a3612ff045aa_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\54e6a1e2-d6d6-4bad-a3a6-a3612ff045aa_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\54e6a1e2-d6d6-4bad-a3a6-a3612ff045aa_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\54e6a1e2-d6d6-4bad-a3a6-a3612ff045aa_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\54e6a1e2-d6d6-4bad-a3a6-a3612ff045aa_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\54e6a1e2-d6d6-4bad-a3a6-a3612ff045aa_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\54e6a1e2-d6d6-4bad-a3a6-a3612ff045aa_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\54e6a1e2-d6d6-4bad-a3a6-a3612ff045aa_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\5d2fab66-08a0-4190-809f-911d28c75647_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\5d2fab66-08a0-4190-809f-911d28c75647_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\5d2fab66-08a0-4190-809f-911d28c75647_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\5d2fab66-08a0-4190-809f-911d28c75647_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\5d2fab66-08a0-4190-809f-911d28c75647_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\5d2fab66-08a0-4190-809f-911d28c75647_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\5d2fab66-08a0-4190-809f-911d28c75647_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\5d2fab66-08a0-4190-809f-911d28c75647_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\74d5e984-f948-43e0-bc78-da40568b0621_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\74d5e984-f948-43e0-bc78-da40568b0621_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\74d5e984-f948-43e0-bc78-da40568b0621_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\74d5e984-f948-43e0-bc78-da40568b0621_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\74d5e984-f948-43e0-bc78-da40568b0621_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\74d5e984-f948-43e0-bc78-da40568b0621_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\74d5e984-f948-43e0-bc78-da40568b0621_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\74d5e984-f948-43e0-bc78-da40568b0621_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\7548b9b2-d6c6-430e-859d-2258606286ad_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\7548b9b2-d6c6-430e-859d-2258606286ad_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\7548b9b2-d6c6-430e-859d-2258606286ad_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\7548b9b2-d6c6-430e-859d-2258606286ad_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\7548b9b2-d6c6-430e-859d-2258606286ad_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\7548b9b2-d6c6-430e-859d-2258606286ad_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\77c72968-a1d7-4167-9a81-667ec94ce0d5_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\77c72968-a1d7-4167-9a81-667ec94ce0d5_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\77c72968-a1d7-4167-9a81-667ec94ce0d5_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\77c72968-a1d7-4167-9a81-667ec94ce0d5_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\77c72968-a1d7-4167-9a81-667ec94ce0d5_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\77c72968-a1d7-4167-9a81-667ec94ce0d5_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\77c72968-a1d7-4167-9a81-667ec94ce0d5_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\77c72968-a1d7-4167-9a81-667ec94ce0d5_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\845a2d88-1c6f-4ce7-97c0-56ebe7c81c37_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\845a2d88-1c6f-4ce7-97c0-56ebe7c81c37_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\845a2d88-1c6f-4ce7-97c0-56ebe7c81c37_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\845a2d88-1c6f-4ce7-97c0-56ebe7c81c37_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\845a2d88-1c6f-4ce7-97c0-56ebe7c81c37_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\845a2d88-1c6f-4ce7-97c0-56ebe7c81c37_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\845a2d88-1c6f-4ce7-97c0-56ebe7c81c37_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\845a2d88-1c6f-4ce7-97c0-56ebe7c81c37_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\9808af03-977d-4f2d-96b9-82079d5c2654_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\9808af03-977d-4f2d-96b9-82079d5c2654_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\9808af03-977d-4f2d-96b9-82079d5c2654_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\9808af03-977d-4f2d-96b9-82079d5c2654_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\9808af03-977d-4f2d-96b9-82079d5c2654_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\9808af03-977d-4f2d-96b9-82079d5c2654_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\9808af03-977d-4f2d-96b9-82079d5c2654_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\9808af03-977d-4f2d-96b9-82079d5c2654_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\9808af03-977d-4f2d-96b9-82079d5c2654_4.webp",
+      "PackagePath": "staticwebassets\\images\\products\\9808af03-977d-4f2d-96b9-82079d5c2654_4.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\9888fcba-f5cb-4ce4-a47e-eb6046e0062a_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\9888fcba-f5cb-4ce4-a47e-eb6046e0062a_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\9888fcba-f5cb-4ce4-a47e-eb6046e0062a_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\9888fcba-f5cb-4ce4-a47e-eb6046e0062a_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\9888fcba-f5cb-4ce4-a47e-eb6046e0062a_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\9888fcba-f5cb-4ce4-a47e-eb6046e0062a_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\9888fcba-f5cb-4ce4-a47e-eb6046e0062a_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\9888fcba-f5cb-4ce4-a47e-eb6046e0062a_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\9888fcba-f5cb-4ce4-a47e-eb6046e0062a_4.webp",
+      "PackagePath": "staticwebassets\\images\\products\\9888fcba-f5cb-4ce4-a47e-eb6046e0062a_4.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\9888fcba-f5cb-4ce4-a47e-eb6046e0062a_5.webp",
+      "PackagePath": "staticwebassets\\images\\products\\9888fcba-f5cb-4ce4-a47e-eb6046e0062a_5.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\a0213616-b671-492a-966f-411bf706fdfa_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\a0213616-b671-492a-966f-411bf706fdfa_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\a0213616-b671-492a-966f-411bf706fdfa_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\a0213616-b671-492a-966f-411bf706fdfa_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\a0213616-b671-492a-966f-411bf706fdfa_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\a0213616-b671-492a-966f-411bf706fdfa_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\a0213616-b671-492a-966f-411bf706fdfa_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\a0213616-b671-492a-966f-411bf706fdfa_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\a0213616-b671-492a-966f-411bf706fdfa_4.webp",
+      "PackagePath": "staticwebassets\\images\\products\\a0213616-b671-492a-966f-411bf706fdfa_4.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\a0213616-b671-492a-966f-411bf706fdfa_5.webp",
+      "PackagePath": "staticwebassets\\images\\products\\a0213616-b671-492a-966f-411bf706fdfa_5.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\a8c4054c-2015-4854-b7a9-267d7f7a469e_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\a8c4054c-2015-4854-b7a9-267d7f7a469e_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\a8c4054c-2015-4854-b7a9-267d7f7a469e_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\a8c4054c-2015-4854-b7a9-267d7f7a469e_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\a8c4054c-2015-4854-b7a9-267d7f7a469e_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\a8c4054c-2015-4854-b7a9-267d7f7a469e_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\a8c4054c-2015-4854-b7a9-267d7f7a469e_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\a8c4054c-2015-4854-b7a9-267d7f7a469e_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\a90c9bbe-d5a4-4efa-9fb8-5f06e2472dc0_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\a90c9bbe-d5a4-4efa-9fb8-5f06e2472dc0_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\a90c9bbe-d5a4-4efa-9fb8-5f06e2472dc0_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\a90c9bbe-d5a4-4efa-9fb8-5f06e2472dc0_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\a90c9bbe-d5a4-4efa-9fb8-5f06e2472dc0_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\a90c9bbe-d5a4-4efa-9fb8-5f06e2472dc0_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\a90c9bbe-d5a4-4efa-9fb8-5f06e2472dc0_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\a90c9bbe-d5a4-4efa-9fb8-5f06e2472dc0_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\a90c9bbe-d5a4-4efa-9fb8-5f06e2472dc0_4.webp",
+      "PackagePath": "staticwebassets\\images\\products\\a90c9bbe-d5a4-4efa-9fb8-5f06e2472dc0_4.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\aa127519-679a-4131-aa82-c851914ebe12_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\aa127519-679a-4131-aa82-c851914ebe12_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\aa127519-679a-4131-aa82-c851914ebe12_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\aa127519-679a-4131-aa82-c851914ebe12_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\aa127519-679a-4131-aa82-c851914ebe12_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\aa127519-679a-4131-aa82-c851914ebe12_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\aa127519-679a-4131-aa82-c851914ebe12_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\aa127519-679a-4131-aa82-c851914ebe12_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\c31dc6a8-df95-4364-975e-edd1b2141bba_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\c31dc6a8-df95-4364-975e-edd1b2141bba_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\c31dc6a8-df95-4364-975e-edd1b2141bba_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\c31dc6a8-df95-4364-975e-edd1b2141bba_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\c31dc6a8-df95-4364-975e-edd1b2141bba_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\c31dc6a8-df95-4364-975e-edd1b2141bba_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\c31dc6a8-df95-4364-975e-edd1b2141bba_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\c31dc6a8-df95-4364-975e-edd1b2141bba_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\d7f560c8-67ba-4ba9-9590-bdea85ab897d_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\d7f560c8-67ba-4ba9-9590-bdea85ab897d_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\d7f560c8-67ba-4ba9-9590-bdea85ab897d_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\d7f560c8-67ba-4ba9-9590-bdea85ab897d_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\d7f560c8-67ba-4ba9-9590-bdea85ab897d_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\d7f560c8-67ba-4ba9-9590-bdea85ab897d_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\d7f560c8-67ba-4ba9-9590-bdea85ab897d_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\d7f560c8-67ba-4ba9-9590-bdea85ab897d_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\e51d7de0-b15c-491e-9cdb-29d8c0cff5ae_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\e51d7de0-b15c-491e-9cdb-29d8c0cff5ae_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\e51d7de0-b15c-491e-9cdb-29d8c0cff5ae_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\e51d7de0-b15c-491e-9cdb-29d8c0cff5ae_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\e51d7de0-b15c-491e-9cdb-29d8c0cff5ae_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\e51d7de0-b15c-491e-9cdb-29d8c0cff5ae_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\e51d7de0-b15c-491e-9cdb-29d8c0cff5ae_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\e51d7de0-b15c-491e-9cdb-29d8c0cff5ae_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\e7756b4a-ebf8-411e-949a-8100c96c50fd_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\e7756b4a-ebf8-411e-949a-8100c96c50fd_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\e7756b4a-ebf8-411e-949a-8100c96c50fd_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\e7756b4a-ebf8-411e-949a-8100c96c50fd_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\e7756b4a-ebf8-411e-949a-8100c96c50fd_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\e7756b4a-ebf8-411e-949a-8100c96c50fd_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\e7756b4a-ebf8-411e-949a-8100c96c50fd_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\e7756b4a-ebf8-411e-949a-8100c96c50fd_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\ec030a3a-2486-4538-928c-a26f055bd4ec_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\ec030a3a-2486-4538-928c-a26f055bd4ec_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\ec030a3a-2486-4538-928c-a26f055bd4ec_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\ec030a3a-2486-4538-928c-a26f055bd4ec_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\ec030a3a-2486-4538-928c-a26f055bd4ec_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\ec030a3a-2486-4538-928c-a26f055bd4ec_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\ec030a3a-2486-4538-928c-a26f055bd4ec_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\ec030a3a-2486-4538-928c-a26f055bd4ec_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\fec65b92-797f-4595-910d-972bf6e19e1c_0.webp",
+      "PackagePath": "staticwebassets\\images\\products\\fec65b92-797f-4595-910d-972bf6e19e1c_0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\fec65b92-797f-4595-910d-972bf6e19e1c_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\fec65b92-797f-4595-910d-972bf6e19e1c_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\fec65b92-797f-4595-910d-972bf6e19e1c_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\fec65b92-797f-4595-910d-972bf6e19e1c_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\fec65b92-797f-4595-910d-972bf6e19e1c_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\fec65b92-797f-4595-910d-972bf6e19e1c_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\products\\fec65b92-797f-4595-910d-972bf6e19e1c_4.webp",
+      "PackagePath": "staticwebassets\\images\\products\\fec65b92-797f-4595-910d-972bf6e19e1c_4.webp"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\slide-10.png",
+      "PackagePath": "staticwebassets\\images\\slide-10.png"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\slide-11.png",
+      "PackagePath": "staticwebassets\\images\\slide-11.png"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\slide-12.png",
+      "PackagePath": "staticwebassets\\images\\slide-12.png"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\users\\default.png",
+      "PackagePath": "staticwebassets\\images\\users\\default.png"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\users\\default_1.png",
+      "PackagePath": "staticwebassets\\images\\users\\default_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\users\\default_2.png",
+      "PackagePath": "staticwebassets\\images\\users\\default_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\images\\users\\default_3.png",
+      "PackagePath": "staticwebassets\\images\\users\\default_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.PlantsStore.Microsoft.AspNetCore.StaticWebAssets.props",

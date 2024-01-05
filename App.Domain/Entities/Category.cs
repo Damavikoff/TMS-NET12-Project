@@ -12,5 +12,6 @@ namespace App.Domain.Entities
         public Guid Id { get; set; }
         [Column("title")]
         public required string Title { get; set; }
+        public virtual ICollection<Product> Products { get; set; } = new List<Product>();
     }
 }

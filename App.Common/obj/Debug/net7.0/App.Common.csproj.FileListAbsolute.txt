@@ -1,12 +1,13 @@
 C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Common\bin\Debug\net7.0\App.Common.deps.json
 C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Common\bin\Debug\net7.0\App.Common.dll
 C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Common\bin\Debug\net7.0\App.Common.pdb
+C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Common\obj\Debug\net7.0\App.Common.csproj.AssemblyReference.cache
 C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Common\obj\Debug\net7.0\App.Common.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Common\obj\Debug\net7.0\App.Common.AssemblyInfoInputs.cache
 C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Common\obj\Debug\net7.0\App.Common.AssemblyInfo.cs
 C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Common\obj\Debug\net7.0\App.Common.csproj.CoreCompileInputs.cache
+C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Common\obj\Debug\net7.0\App.Common.sourcelink.json
 C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Common\obj\Debug\net7.0\App.Common.dll
 C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Common\obj\Debug\net7.0\refint\App.Common.dll
 C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Common\obj\Debug\net7.0\App.Common.pdb
 C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Common\obj\Debug\net7.0\ref\App.Common.dll
-C:\Users\Кудин\source\repos\TMS-NET-12\PlantsStore\App.Common\obj\Debug\net7.0\App.Common.csproj.AssemblyReference.cache

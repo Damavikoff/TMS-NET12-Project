@@ -2,93 +2,103 @@
 using App.Domain;
 using App.Domain.Interfaces;
 using App.Infrastructure.Interfaces;
+using App.Infrastructure.Miscellaneous;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace App.Infrastructure.Repositories
 {
     public abstract class BaseRepository<T, E> : IRepository<T, E> where T : class, IEntity<E>
     {
-        public readonly ApplicationContext _context;
+        public readonly ApplicationDbContext _context;
         public readonly DbSet<T> _dbSet;
 
-        public BaseRepository(ApplicationContext context)
+        public BaseRepository(ApplicationDbContext context)
         {
             _context = context;
             _dbSet = context.Set<T>();
         }
 
-        public IEnumerable<T> GetAll()
+        public async Task<IEnumerable<T>> GetAllAsync()
         {
-            return _context.Set<T>().ToList();
+            return await _context.Set<T>().ToListAsync();
         }
 
-        public T GetById(E id)
+        public virtual async Task<T> GetByIdAsync(E id)
         {
-            return _dbSet.Find(id) ?? throw new DatabaseException("Entry not found!");
+            return await _dbSet.FindAsync(id) ?? throw new DatabaseException("Entry not found!");
         }
 
-        public bool Remove(E id)
+        public async Task<IEnumerable<T>> GetAllByIdInAsync(IEnumerable<E> list)
         {
-            var entity = _dbSet.Find(id);
-            if (entity != null)
-            {
-                _context.Remove(entity);
-                return true;
-            }
-            return false;
+            return await _dbSet.Where(v => list.Contains(v.Id)).ToListAsync();
         }
 
-        public bool Remove(T entry)
+        public async Task<bool> RemoveAsync(E id)
         {
-            return Remove(entry.Id);
+            return Remove(await _dbSet.FindAsync(id));
         }
 
-        public void Delete(E id)
+        public bool Remove(T? entity)
         {
-            if (Remove(id)) Flush();
+            if (entity == null) return false;
+            _context.Remove(entity);
+            return true;
         }
 
-        public void Delete(T entry)
+        public async Task DeleteAsync(E id)
         {
-            Delete(entry.Id);
+            if (await RemoveAsync(id)) await FlushAsync();
         }
 
-        public virtual void Update(T entry)
+        public async Task DeleteAsync(T entry)
         {
-            var entity = _dbSet.Find(entry.Id);
-            if (entity == null)
+            if (Remove(entry)) await FlushAsync();
+        }
+
+        public virtual T Update(T entry)
+        {
+            if (_context.Entry(entry).State == EntityState.Detached)
             {
                 _context.Add(entry);
+
             }
             else
             {
-                _context.Entry(entity).CurrentValues.SetValues(entry);
+                _context.Entry(entry).CurrentValues.SetValues(entry);
             }
+            return _context.Entry(entry).Entity;
         }
 
-        public void Update(IEnumerable<T> list)
+        public IEnumerable<T> Update(IEnumerable<T> list)
         {
-            foreach (var item in list)
-            {
-                Update(item);
-            }
+            return list.Select(Update);
         }
 
-        public void Save(T entry)
+        public async Task SaveAsync(T entry)
         {
             Update(entry);
-            Flush();
+            await FlushAsync();
         }
 
-        public void Save(IEnumerable<T> list)
+        public async Task SaveAsync(IEnumerable<T> list)
         {
             Update(list);
-            Flush();
+            await FlushAsync();
         }
 
-        public void Flush()
+        public async Task FlushAsync()
         {
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
+        }
+
+        public IOrderedQueryable<T> Order<K>(IQueryable<T> query, Expression<Func<T, K>> selector, SortDirection direction)
+        {
+            if (direction == SortDirection.Descending)
+            {
+                return query.OrderByDescending(selector);
+            }
+            return query.OrderBy(selector);
         }
     }
 }
