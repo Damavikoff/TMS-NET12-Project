@@ -64,6 +64,7 @@ import Modal from './Modal.vue'
 import Toast from '../data/Toast'
 import RequestHandler from '../data/RequestHandler'
 import { ENDPOINTS } from '../data/defaults'
+import User from '../data/User'
 
 const MODE_LOGIN = 1
 const MODE_REGISTER = 2
@@ -98,6 +99,10 @@ export default {
       if (!this.isAbleToLogin) return
       try {
         const data = await RequestHandler.doPostRequest(`${ENDPOINTS.auth}/login`, { login: this.login, password: this.password })
+        if (data.role === User.ROLE_ADMIN) {
+          const adminData = await RequestHandler.doGetRequest(`${ENDPOINTS.init}/admin`)
+          this.$store.commit('setAdminInfo', adminData)
+        }
         this.$store.commit('setUser', data)
         this.$emit('close')
       } catch (e) {

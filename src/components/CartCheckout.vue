@@ -119,8 +119,11 @@
     created () {
       if (this.user) {
         const { lastName, firstName, email, phone } =  this.user.info
-        const { street: address, city } = this.user.address
-        Object.assign(this.orderInfo, { lastName, firstName, email, phone, address, city })
+        Object.assign(this.orderInfo, { lastName, firstName, email, phone })
+        if (this.user.address) {
+          const { street: address, city } = this.user.address
+          Object.assign(this.orderInfo, { address, city })
+        }
       }
     },
     methods: {

@@ -37,6 +37,9 @@
     margin-top: 0.2em;
     color: var(--color-font-secondary)
   }
+  &.green {
+    color: var(--color-green);
+  }
 }
 
 .bold {
@@ -192,6 +195,16 @@
     }
     &:active {
       background-color: rgb(60, 141, 77);
+    }
+  }
+  &.red {
+    color: white;
+    background-color: #d0534d;
+    &:hover {
+      background-color: #c24d47;
+    }
+    &:active {
+      background-color: #b34741;
     }
   }
   >i {
@@ -368,6 +381,10 @@
   }
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 .pointed {
   position: absolute;
   top: 50%;
@@ -498,7 +515,7 @@ div.menu.horizontal {
 }
 
 nav {
-  margin: 1.4rem 0;
+  margin: 1.34rem 0;
 }
 
 .table {
@@ -515,6 +532,17 @@ nav {
     tr {
       >td {
         border-bottom: 1px solid var(--color-border-secondary);
+      }
+    }
+  }
+  &.selectable {
+    tbody {
+      tr {
+        position: relative;
+        cursor: pointer;
+        &:hover {
+          background-color: rgba(60, 60, 60, .01);
+        }
       }
     }
   }

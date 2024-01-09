@@ -5,6 +5,7 @@ import { BlogPostItem } from '../data/BlogPost'
 
 import { ProductItem } from '../data/Product'
 import User from '../data/User'
+import Order from '../data/Order'
 
 export default createStore({
   state: {
@@ -18,7 +19,10 @@ export default createStore({
     toasts: [],
     user: null,
     cart: [],
-    lastOrder: null
+    lastOrder: null,
+    administration: {
+      orders: []
+    }
   },
   mutations: {
     setBusy: (state, payload = true) => {
@@ -48,15 +52,21 @@ export default createStore({
     },
     setUser: (state, payload) => {
       state.user = payload ? new User(payload) : null
+    },
+    setAdminInfo: (state, payload) => {
+      Object.assign(state.administration, payload)
+      const { orders } = state.administration
+      state.administration.orders = orders.map(v => new Order(v))
     }
   },
   actions: {
     setInitData: ({ commit, state }, payload) => {
-      const { filters, blogPosts, cart, directories, user } = payload
+      const { filters, blogPosts, cart, directories, user, administration } = payload
       commit('setDirectories', directories)
       commit('setBlogPosts', blogPosts)
       commit('setCart', cart)
       commit('setUser', user)
+      commit('setAdminInfo', administration)
       state.grid.filter.setItems(filters)
     }
   },
@@ -71,6 +81,8 @@ export default createStore({
     toasts: state => state.toasts.filter(v => v.visible),
     cart: state => state.cart,
     lastOrder: state => state.lastOrder,
-    user: state => state.user
+    user: state => state.user,
+    error: state => state.error,
+    orders: state => state.administration.orders
   }
 })

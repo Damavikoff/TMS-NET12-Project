@@ -3,7 +3,7 @@
     <div class="raw order segment">
       <div class="lined heading">
         <i class="icofont icofont-close-line link icon" @click="$emit('close')"></i>
-        <div class="large icon header">
+        <div class="large green icon header">
           <i class="icofont icofont-info-circle"></i>
           <div class="content">Order Details</div>
         </div>
@@ -34,7 +34,7 @@
         <div class="lined shipping">
           <div class="flex relaxed centered item">
             <span class="thick text">Name:</span>
-            <span class="secondary text">{{ `${order.userInfo.firstName} ${order.userInfo.lastName}`.trim() }}</span>
+            <span class="green thick text">{{ `${order.userInfo.firstName} ${order.userInfo.lastName}`.trim() }}</span>
           </div>
           <div class="flex relaxed centered item">
             <span class="thick text">Email:</span>
@@ -89,6 +89,13 @@
           </div>
         </div>
       </div>
+      <template v-if="canControl">
+        <div class="divider"></div>
+        <div class="relaxed flex justify-end controls">
+          <div class="red button" @click="cancel">Dismiss</div>
+          <div class="green button" @click="complete"><i class="icofont icofont-verification-check"></i>Finish</div>
+        </div>
+      </template>
     </div>
   </Modal>
 </template>
@@ -103,13 +110,30 @@ export default {
   components: {
     Modal
   },
-  emits: ['close'],
+  emits: ['close', 'state'],
   props: {
-    data: Order
+    data: Order,
+    controllable: {
+      type: Boolean,
+      default: false
+    }
   },
   data () {
     return {
       order: this.data
+    }
+  },
+  methods: {
+    cancel () {
+      this.$emit('state', Order.STATE_CANCELLED)
+    },
+    complete () {
+      this.$emit('state', Order.STATE_DELIVERED)
+    }
+  },
+  computed: {
+    canControl () {
+      return this.controllable && this.order.state === Order.STATE_CREATED
     }
   }
 }
@@ -122,7 +146,7 @@ export default {
     flex-flow: column;
     align-items: center;
     padding: 1em 10em;
-    padding-top: 1.5em;
+    padding-top: 1.3em;
     >i {
       position: absolute;
       top: 12px;
@@ -158,7 +182,8 @@ export default {
     padding: 0 1em;
     div.details {
       .scrolling {
-        max-height: 80vh;
+        min-height: 200px;
+        max-height: 55vh;
       }
       .table {
         width: 100%;
@@ -224,6 +249,15 @@ export default {
     div.message {
       text-align: center;
       padding:  2em 0;
+    }
+  }
+
+  .controls {
+    gap: 1em;
+    padding: .5em 1em;
+    text-align: center;
+    .button {
+      width: 100px;
     }
   }
 

@@ -22,7 +22,7 @@ export default class RequestHandler {
     const r = await fetch(url, params)
     if (!r.ok) {
       const e = await r.text()
-      if (r.status === 401) window.location.reload()
+      // if (r.status === 401) window.location.reload()
       throw new Error(e || r?.statusMessage || r?.statusText || r?.status)
     }
     if (r.headers.get('Content-Disposition')?.includes('attachment')) return r.blob()

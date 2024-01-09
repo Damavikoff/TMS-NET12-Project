@@ -2,16 +2,20 @@
   <main>
     <div class="menu">
       <div class="header">My Account</div>
-      <div class="item" v-for="(v, k) in menuItems" :key="k" @click="activeMenuItemIndex = k" :class="{ active: v === activeItem }" >
+      <div class="item" v-for="(v, k) in visibleMenuItems" :key="k" @click="activeTabType = v.type" :class="{ active: v === activeItem }" >
         <i class="icofont" :class="v.icon"></i>{{ v.title }}
       </div>
+      <template v-if="isAdmin">
+        <div class="divider"></div>
+        <div class="item" @click="activeTabType = TAB_ADMIN"><i class="icofont icofont-support"></i>Administration</div>
+      </template>
       <div class="divider"></div>
       <div class="green item" @click="logOut">
         <i class="icofont icofont-exclamation-circle"></i>Logout
       </div>
     </div>
     <transition name="fade" mode="out-in">
-      <div class="content" :key="menuItems.indexOf(activeItem)">
+      <div class="content" :key="activeTabType">
         <div class="header">{{ activeItem.title }}</div>
         <div class="segment" v-if="activeItem.type === TAB_DETAILS">
           <div class="form">
@@ -60,34 +64,32 @@
           </div>
         </div>
         <div class="grow flex justify-center segment" v-else-if="activeItem.type === TAB_ORDERS">
-          <div class="w-full orders secondary segment" v-if="user.orders">
-            <div class="h-full">
-              <div class="absolute h-full scrolling">
-                <table class="basic w-full table">
-                  <tbody>
-                    <tr v-for="(v, k) in user.orders" :key="k">
-                      <td class="collapsing">
-                        <span class="small whitespace-nowrap secondary text">{{ formatDate(v.created) }}</span>
-                      </td>
-                      <td>
-                        <span class="fluid bold text"># {{ v.number }}</span>
-                      </td>
-                      <td class="collapsing">
-                        <span class="small secondary text">(x{{ v.items.length }})</span>
-                      </td>
-                      <td class="collapsing">
-                        <span class="medium bold green text">{{ formatCurrency(v.total) }}</span>
-                      </td>
-                      <td class="collapsing">
-                        <div class="label" :style="{ background: v.stateColor }">{{ v.stateName }}</div>
-                      </td>
-                      <td class="collapsing">
-                        <i class="large icofont icofont-search-1 link icon" @click="activeOrder = v"></i>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+          <div class="w-full orders secondary segment" v-if="userOrders.length">
+            <div class="h-full scrolling">
+              <table class="basic w-full table">
+                <tbody>
+                  <tr v-for="(v, k) in userOrders" :key="k">
+                    <td class="collapsing">
+                      <span class="small whitespace-nowrap secondary text">{{ formatDate(v.created) }}</span>
+                    </td>
+                    <td>
+                      <span class="fluid bold text"># {{ v.number }}</span>
+                    </td>
+                    <td class="collapsing">
+                      <span class="small secondary text">(x{{ v.items.length }})</span>
+                    </td>
+                    <td class="collapsing">
+                      <span class="medium bold green text">{{ formatCurrency(v.total) }}</span>
+                    </td>
+                    <td class="collapsing">
+                      <div class="label" :style="{ background: v.stateColor }">{{ v.stateName }}</div>
+                    </td>
+                    <td class="collapsing">
+                      <i class="large icofont icofont-search-1 link icon" @click="activeOrder = v"></i>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
           <div class="grow flex justify-center segment" v-else>
@@ -95,6 +97,47 @@
               <i class="icofont icofont-search-2"></i>
               <div class="content">Not Found
                 <div class="sub header">You have no orders yet.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grow flex justify-center segment" v-else-if="activeItem.type === TAB_ADMIN">
+          <div class="w-full orders secondary segment" v-if="overallOrders.length">
+            <div class="h-full scrolling">
+              <table class="basic w-full selectable table">
+                <tbody>
+                  <tr v-for="(v, k) in overallOrders" :key="k" @click="activeOrder = v">
+                    <td class="collapsing">
+                      <div class="label" :style="{ background: v.stateColor }">{{ v.stateName }}</div>
+                    </td>
+                    <td>
+                      <span class="fluid bold text"># {{ v.number }}</span>
+                    </td>
+                    <td class="collapsing">
+                      <div class="flex relaxed centered">
+                        <img :src="v.user.avatar" alt="user" />
+                        <span class="nowrap text">{{ v.user.fullName }}</span>
+                      </div>
+                    </td>
+                    <td class="collapsing">
+                      <span class="nowrap small secondary text">{{ `${v.address.cityTitle}, ${v.address.street}` }}</span>
+                    </td>
+                    <td class="collapsing">
+                      <span class="small secondary text">{{ v.user.info.phone }}</span>
+                    </td>
+                    <td class="collapsing">
+                      <span class="medium bold green text">{{ formatCurrency(v.total) }}</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="grow flex justify-center segment" v-else>
+            <div class="icon huge header">
+              <i class="icofont icofont-search-2"></i>
+              <div class="content">Not Found
+                <div class="sub header">There are no any orders.</div>
               </div>
             </div>
           </div>
@@ -110,7 +153,7 @@
       </div>
     </transition>
     <transition name="fade" mode="out-in">
-      <OrderDetailsModal :data="activeOrder" v-if="activeOrder" @close="activeOrder = null" />
+      <OrderDetailsModal :data="activeOrder" v-if="activeOrder" @close="activeOrder = null" :controllable="isAdmin" @state="setState" />
     </transition>
   </main>
 </template>
@@ -126,6 +169,10 @@ import OrderDetailsModal from '@/components/OrderDetailsModal.vue'
 
 const TAB_DETAILS = 1
 const TAB_ORDERS = 2
+const TAB_WISHLIST = 3
+const TAB_SUPPORT = 4
+const TAB_REPORTS = 5
+const TAB_ADMIN = 6
 
 export default {
   name: 'profile-view',
@@ -138,10 +185,14 @@ export default {
   data () {
     return {
       userData: null,
-      activeMenuItemIndex: 0,
+      activeTabType: TAB_DETAILS,
       activeOrder: null,
       TAB_DETAILS,
-      TAB_ORDERS
+      TAB_ORDERS,
+      TAB_WISHLIST,
+      TAB_SUPPORT,
+      TAB_REPORTS,
+      TAB_ADMIN
     }
   },
   created () {
@@ -152,6 +203,7 @@ export default {
   methods: {
     async logOut () {
       await RequestHandler.doPostRequest(`${ENDPOINTS.auth}/logout`)
+      this.$router.push('/')
       this.$store.commit('setUser')
     },
     async saveUserInfo () {
@@ -162,10 +214,25 @@ export default {
       } catch (e) {
         this.handleStateError(e)
       }
+    },
+    async setState (state) {
+      if (!this.activeOrder) return
+      try {
+        const { id } = this.activeOrder
+        await RequestHandler.doPostRequest(`${ENDPOINTS.orders}/state/${id}/${state}`);
+        this.activeOrder.state = state
+        const order = this.userOrders.find(v => v.id === id)
+        if (order) {
+          order.state = state
+        }
+        this.activeOrder = null
+      } catch (e) {
+        this.handleStateError(e)
+      }
     }
   },
   computed: {
-    ...mapGetters(['directories', 'user']),
+    ...mapGetters(['directories', 'user', 'orders']),
     cities () {
       return this.directories.cities.map(v => {
         const { title: name, id: value } = v
@@ -176,14 +243,18 @@ export default {
       const items = [
         { title: 'Account Details', icon: 'icofont-search-user', type: TAB_DETAILS },
         { title: 'Orders', icon: 'icofont-cart-alt', type: TAB_ORDERS },
-        { title: 'Wishlist', icon: 'icofont-heart' },
-        { title: 'Reports', icon: 'icofont-chart-pie' },
-        { title: 'Support', icon: 'icofont-exclamation-circle' }
+        { title: 'Wishlist', icon: 'icofont-heart', type: TAB_WISHLIST },
+        { title: 'Reports', icon: 'icofont-chart-pie', type: TAB_REPORTS },
+        { title: 'Support', icon: 'icofont-exclamation-circle', type: TAB_SUPPORT },
+        { title: 'Administration', icon: 'icofont-support', type: TAB_ADMIN }
       ]
       return items
     },
+    visibleMenuItems () {
+      return this.menuItems.filter(v => v.type !== TAB_ADMIN)
+    },
     activeItem () {
-      return this.menuItems[this.activeMenuItemIndex]
+      return this.menuItems.find(v => v.type === this.activeTabType)
     },
     userInfoError () {
       if (!this.userData.info.firstName) return 'Set Your Name'
@@ -192,6 +263,17 @@ export default {
       if (!this.userData.info.phone) return 'Set Your Phone'
       if (!this.userData.address.street) return 'Set Your Address'
       return null 
+    },
+    isAdmin () {
+      return this.user?.role === User.ROLE_ADMIN
+    },
+    userOrders () {
+      if (!this.user) return []
+      return this.user.orders
+    },
+    overallOrders () {
+      if (!this.isAdmin) return []
+      return this.orders
     }
   }
 }
@@ -209,7 +291,7 @@ export default {
       display: flex;
       flex-flow: column;
       >.header {
-        margin-bottom: .7em;
+        margin-bottom: 1.2rem;
       }
       padding: 0 1em;
     }
@@ -245,7 +327,7 @@ export default {
       }
     }
     >.divider {
-      margin: .7em 0;
+      margin: .6em 0;
     }
   }
 
@@ -266,18 +348,23 @@ export default {
     padding: .5em;
     border-radius: .4em;
     margin: -1em 0;
-    min-height: 300px;
+    max-height: 600px;
     table {
       td {
         >.label {
           border: none;
           color: white;
           padding: 0.4em 0.6em;
-          font-size: .9em;
-          width: 120px;
+          font-size: .82em;
+          width: 100px;
           text-align: center;
           font-weight: 500;
           border-radius: .2em;
+        }
+        img {
+          height: 1.3em;
+          display: inline-block;
+          max-width: none;
         }
       }
     }

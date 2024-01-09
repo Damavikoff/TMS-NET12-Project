@@ -2,9 +2,9 @@
   <div class="vertical flex centered h-full justify-center">
     <div class="vertical flex items-center wrap">
       <div class="icon header">
-        <i class="icofont icofont-question-circle"></i>
+        <i class="icofont icofont-newspaper"></i>
         <div class="content">
-          About Page
+          Blogs Page
           <div class="normal-case sub header">Not implemented</div>
         </div>
       </div>

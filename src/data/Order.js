@@ -1,4 +1,5 @@
 import { ProductItem } from "./Product"
+import User from "./User"
 
 export default class Order {
   static STATE_CREATED = 1
@@ -24,15 +25,15 @@ export default class Order {
   }
 
   static #STATE_COLORS = {
-    [Order.STATE_CREATED]: '#3c93e4',
+    [Order.STATE_CREATED]: '#468dd0',
     [Order.STATE_PREPARING]: '#9762f3',
-    [Order.STATE_DELIVERED]: '#24c56a',
-    [Order.STATE_CANCELLED]: '#df4545'
+    [Order.STATE_DELIVERED]: '#56b669',
+    [Order.STATE_CANCELLED]: '#d56161'
   }
 
   constructor (props) {
     this.id = null
-    this.state = Order.STATE_CREATED,
+    this.state = Order.STATE_CREATED
     this.number = null
     this.total = null
     this.shipping = null
@@ -54,6 +55,7 @@ export default class Order {
     }
     Object.assign(this, props)
     this.items = this.items.map(v => { return { ...v, product: new ProductItem(v.product) }})
+    this.user = new User({ info: this.userInfo, address: this.address })
   }
 
   get paymentMethodName () {

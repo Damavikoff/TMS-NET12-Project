@@ -24,6 +24,7 @@ export default {
 
 <style scoped lang="scss">
   .toasts {
+    z-index: 2000;
     position: fixed;
     top: .5rem;
     right: .5rem;
