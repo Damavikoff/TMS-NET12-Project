@@ -24,11 +24,12 @@ namespace App.Infrastructure.Services
 
         public async Task<User?> GetCurrentUser()
         {
-            return await _userRepository._dbSet.Include(x => x.Orders.OrderByDescending(v => v.Created)).FirstOrDefaultAsync(x => x.Id == Guid.Parse("d9ec6e20-4c52-43fd-bfec-5bc16a74411d"));
+            // return await _userRepository._dbSet.Include(x => x.Orders.OrderByDescending(v => v.Created)).FirstOrDefaultAsync(x => x.Id == Guid.Parse("d9ec6e20-4c52-43fd-bfec-5bc16a74411d"));
             //var session = _httpContextAccessor.HttpContext?.Session;
-            //var isSet = Guid.TryParse(session?.GetString("UserId"), out var userId);
-            //if (!isSet) return null;
-            //return await _userRepository.GetByIdAsync(userId);
+            // return await _userRepository.GetByLogin("test");
+            var identity = _httpContextAccessor?.HttpContext?.User?.Identity;
+            if (identity?.Name == null || !identity.IsAuthenticated) return null;
+            return await _userRepository.GetByLogin(identity.Name);
         }
 
         public void AddAdress(User user, ShippingAddress address, bool update = false)

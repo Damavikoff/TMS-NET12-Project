@@ -17,8 +17,12 @@ namespace App.Infrastructure.Services
         private readonly CartService _cartService;
         private readonly UserService _userService;
         private readonly UserMapper _userMapper;
+        private readonly OrderService _orderService;
 
-        public InitService(CategoryService categoryService, SizeService sizeService, BlogPostService blogPostService, ProductRepository productRepository, CityRepository cityRepository, CartService cartService, UserService userService, UserMapper userMapper)
+        public InitService(CategoryService categoryService, SizeService sizeService,
+                           BlogPostService blogPostService, ProductRepository productRepository,
+                           CityRepository cityRepository, CartService cartService,
+                           UserService userService, UserMapper userMapper, OrderService orderService)
         {
             _categoryService = categoryService;
             _sizeService = sizeService;
@@ -28,27 +32,43 @@ namespace App.Infrastructure.Services
             _cartService = cartService;
             _userService = userService;
             _userMapper = userMapper;
+            _orderService = orderService;
         }
 
         public async Task<IDictionary<string, object?>> GetInitData()
         {
             var user = await _userService.GetCurrentUser();
-            return new Dictionary<string, object?> {
+            var data = new Dictionary<string, object?> {
                 { "blogPosts", await _blogPostService.GetItems(4) },
                 { "filters", await GetFilters() },
                 { "cart", await _cartService.GetCartDto() },
                 { "directories", await GetDirectories() },
                 { "user", user == null ? null : _userMapper.ToDto(user) }
             };
+
+            if (user?.IsAdmin == true)
+            {
+                data.Add("administration", await GetAdminChunk());
+            }
+
+            return data;
         }
 
-        private async Task<Dictionary<string, object>> GetDirectories ()
+        private async Task<Dictionary<string, object>> GetDirectories()
         {
             return new Dictionary<string, object>
             {
                 { "categories", await _categoryService.GetItems() },
                 { "sizes", await _sizeService.GetItems() },
                 { "cities", await _cityRepository.GetAllOrderByTitleAsync() }
+            };
+        }
+
+        public async Task<Dictionary<string, object>> GetAdminChunk()
+        {
+            return new Dictionary<string, object>
+            {
+                { "orders", await _orderService.GetAllOrders() }
             };
         }
         

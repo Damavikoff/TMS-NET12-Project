@@ -22,6 +22,7 @@ namespace App.Infrastructure.Mappers
             {
                 Id = entity.Id,
                 Login = entity.Login,
+                Role = (int)entity.Role,
                 Info = _userInfoMapper.ToDto(entity.Info),
                 Address = entity.ShippingAddress == null ? null : _shippingAddressMapper.ToDto(entity.ShippingAddress),
                 Orders = _orderMapper.ToDto(entity.Orders)

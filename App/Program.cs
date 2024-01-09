@@ -2,8 +2,9 @@ using App.Domain;
 using App.Infrastructure.Mappers;
 using App.Infrastructure.Repositories;
 using App.Infrastructure.Services;
-using PlantsStore.Filters;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using PlantsStore.Middleware;
+using System.Net;
 using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,12 +18,26 @@ builder.Services.AddControllers() //options => options.Filters.Add(typeof(Applic
                 });
 
 builder.Services.AddDistributedMemoryCache();
-builder.Services.AddSession(options => {
-    options.IdleTimeout = TimeSpan.FromMinutes(25);
-    options.Cookie.HttpOnly = true;
-    options.Cookie.IsEssential = true;
-    options.Cookie.Domain = "localhost";
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
+{
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(20);
+    options.SlidingExpiration = true;
+    options.Events.OnRedirectToAccessDenied =
+    options.Events.OnRedirectToLogin = c =>
+    {
+        c.Response.StatusCode = (int)HttpStatusCode.Forbidden;
+        c.Response.WriteAsync("Access denied");
+        return Task.CompletedTask;
+    };
 });
+builder.Services.AddAuthorization();
+//builder.Services.AddSession(options =>
+//{
+//    options.IdleTimeout = TimeSpan.FromMinutes(25);
+//    options.Cookie.HttpOnly = true;
+//    options.Cookie.IsEssential = true;
+//    options.Cookie.Domain = "localhost";
+//});
 builder.Services.AddHttpContextAccessor();
 
 // db
@@ -76,7 +91,7 @@ builder.Services.AddSpaStaticFiles(options =>
 var app = builder.Build();
 
 // custom exception middleware
-// app.UseMiddleware<ExceptionHandlingMiddleware>();
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -94,7 +109,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseSession();
+//app.UseSession();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

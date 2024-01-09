@@ -14,6 +14,8 @@ namespace App.Domain.Entities
         public string Login { get; set; } = null!;
         [Column("password")]
         public required string Password { get; set; }
+        [Column("role_id")]
+        public UserRole Role { get; set; } = UserRole.User;
         [Column("image")]
         public string? Image { get; set; }
         [Column("created")]
@@ -24,5 +26,12 @@ namespace App.Domain.Entities
         public virtual ShippingAddress? ShippingAddress { get; set; }
         public virtual ICollection<ShippingAddress> Addresses { get; set; } = new List<ShippingAddress>();
         public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
+        public bool IsAdmin => Role == UserRole.Admin;
+    }
+
+    public enum UserRole
+    {
+        User = 1,
+        Admin = 2
     }
 }

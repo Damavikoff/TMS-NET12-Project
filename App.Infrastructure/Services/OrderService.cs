@@ -1,9 +1,12 @@
-﻿using App.Domain.Entities;
+﻿using App.Common.Exceptions;
+using App.Domain.Entities;
 using App.Infrastructure.Dto;
 using App.Infrastructure.Mappers;
 using App.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Net;
 
 namespace App.Infrastructure.Services
 {
@@ -57,6 +60,21 @@ namespace App.Infrastructure.Services
         {
             var rnd = new Random();
             return $"{rnd.Next(9999)}/{rnd.Next(999999)}-{rnd.Next(9)}";
+        }
+
+        public async Task<IEnumerable<OrderDto>> GetAllOrders()
+        {
+            var orders = await _orderRepository.GetAllOrderByUpdatedDesc();
+            return _orderMapper.ToDto(orders);
+        }
+
+        public async Task SetState(Guid id, int state)
+        {
+            if (!Enum.IsDefined(typeof(OrderState), state))
+                throw new AppException("Wron status code.", HttpStatusCode.BadRequest);
+            var order = await _orderRepository.GetByIdAsync(id);
+            order.State = (OrderState)state;
+            await _orderRepository.SaveAsync(order);
         }
     }
 }

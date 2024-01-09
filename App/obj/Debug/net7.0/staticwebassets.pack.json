@@ -1,12 +1,20 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\AboutView-0fae67f2.js",
-      "PackagePath": "staticwebassets\\assets\\AboutView-0fae67f2.js"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\AboutView-0e795fe7.css",
+      "PackagePath": "staticwebassets\\assets\\AboutView-0e795fe7.css"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\AboutView-4d995ba2.css",
-      "PackagePath": "staticwebassets\\assets\\AboutView-4d995ba2.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\AboutView-5ef0de70.js",
+      "PackagePath": "staticwebassets\\assets\\AboutView-5ef0de70.js"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\BlogsView-1f4cc8f3.css",
+      "PackagePath": "staticwebassets\\assets\\BlogsView-1f4cc8f3.css"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\BlogsView-672248e8.js",
+      "PackagePath": "staticwebassets\\assets\\BlogsView-672248e8.js"
     },
     {
       "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Black-2d4005bb.woff",
@@ -201,6 +209,14 @@
       "PackagePath": "staticwebassets\\assets\\CeraPro-ThinItalic-f820f078.woff2"
     },
     {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\ShippingView-5cb3bcd3.js",
+      "PackagePath": "staticwebassets\\assets\\ShippingView-5cb3bcd3.js"
+    },
+    {
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\ShippingView-d2f330af.css",
+      "PackagePath": "staticwebassets\\assets\\ShippingView-d2f330af.css"
+    },
+    {
       "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\icofont-1cf23f38.eot",
       "PackagePath": "staticwebassets\\assets\\icofont-1cf23f38.eot"
     },
@@ -221,12 +237,12 @@
       "PackagePath": "staticwebassets\\assets\\icofont-53bbbda5.woff"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\index-c81274cc.css",
-      "PackagePath": "staticwebassets\\assets\\index-c81274cc.css"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\index-37f96931.css",
+      "PackagePath": "staticwebassets\\assets\\index-37f96931.css"
     },
     {
-      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\index-f68daf33.js",
-      "PackagePath": "staticwebassets\\assets\\index-f68daf33.js"
+      "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\index-78aa67dd.js",
+      "PackagePath": "staticwebassets\\assets\\index-78aa67dd.js"
     },
     {
       "Id": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\payment-512c0d4d.png",

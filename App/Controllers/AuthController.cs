@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace PlantsStore.Controllers
 {
     [ApiController]
-    [Route("auth")]
+    [Route("app/auth")]
     public class AuthController
     {
         private readonly AuthService _authService;

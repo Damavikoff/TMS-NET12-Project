@@ -8,7 +8,7 @@ using System.Net;
 namespace PlantsStore.Controllers
 {
     [ApiController]
-    [Route("products")]
+    [Route("app/products")]
     public class ProductController
     {
         private readonly ProductService _productService;

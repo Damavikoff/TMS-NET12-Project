@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace PlantsStore.Controllers
 {
     [ApiController]
-    [Route("user")]
+    [Route("app/user")]
     public class UserController
     {
         private readonly UserService _userService;

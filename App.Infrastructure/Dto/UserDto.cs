@@ -4,6 +4,7 @@
     {
         public Guid? Id { get; set; }
         public string? Login {  get; set; }
+        public int Role {  get; set; }
         public UserInfoDto Info { get; set; } = null!;
         public ShippingAddressDto? Address { get; set; }
         public IEnumerable<OrderDto> Orders { get; set; } = new List<OrderDto>();

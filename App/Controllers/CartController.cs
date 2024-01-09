@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace PlantsStore.Controllers
 {
     [ApiController]
-    [Route("cart")]
+    [Route("app/cart")]
     public class CartController
     {
         private readonly CartService _cartService;

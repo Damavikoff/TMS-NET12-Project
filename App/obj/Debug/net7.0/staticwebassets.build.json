@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/YGriM5pcWZ4XkC8God68TEP3RAxouqPo4VMKQgODSE=",
+  "Hash": "dSot7khgHo4Hlx2wAy5oTumrNNNre3AeUs9wNP6LSbs=",
   "Source": "PlantsStore",
   "BasePath": "_content/PlantsStore",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\AboutView-0fae67f2.js",
+      "Identity": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\AboutView-0e795fe7.css",
       "SourceId": "PlantsStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\",
       "BasePath": "_content/PlantsStore",
-      "RelativePath": "assets/AboutView-0fae67f2.js",
+      "RelativePath": "assets/AboutView-0e795fe7.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,15 +33,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\AboutView-0fae67f2.js"
+      "OriginalItemSpec": "wwwroot\\assets\\AboutView-0e795fe7.css"
     },
     {
-      "Identity": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\AboutView-4d995ba2.css",
+      "Identity": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\AboutView-5ef0de70.js",
       "SourceId": "PlantsStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\",
       "BasePath": "_content/PlantsStore",
-      "RelativePath": "assets/AboutView-4d995ba2.css",
+      "RelativePath": "assets/AboutView-5ef0de70.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,7 +52,45 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\AboutView-4d995ba2.css"
+      "OriginalItemSpec": "wwwroot\\assets\\AboutView-5ef0de70.js"
+    },
+    {
+      "Identity": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\BlogsView-1f4cc8f3.css",
+      "SourceId": "PlantsStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\",
+      "BasePath": "_content/PlantsStore",
+      "RelativePath": "assets/BlogsView-1f4cc8f3.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\BlogsView-1f4cc8f3.css"
+    },
+    {
+      "Identity": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\BlogsView-672248e8.js",
+      "SourceId": "PlantsStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\",
+      "BasePath": "_content/PlantsStore",
+      "RelativePath": "assets/BlogsView-672248e8.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\BlogsView-672248e8.js"
     },
     {
       "Identity": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\CeraPro-Black-2d4005bb.woff",
@@ -1062,12 +1100,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\icofont-53bbbda5.woff"
     },
     {
-      "Identity": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\index-c81274cc.css",
+      "Identity": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\index-37f96931.css",
       "SourceId": "PlantsStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\",
       "BasePath": "_content/PlantsStore",
-      "RelativePath": "assets/index-c81274cc.css",
+      "RelativePath": "assets/index-37f96931.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1078,15 +1116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-c81274cc.css"
+      "OriginalItemSpec": "wwwroot\\assets\\index-37f96931.css"
     },
     {
-      "Identity": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\index-f68daf33.js",
+      "Identity": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\index-78aa67dd.js",
       "SourceId": "PlantsStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\",
       "BasePath": "_content/PlantsStore",
-      "RelativePath": "assets/index-f68daf33.js",
+      "RelativePath": "assets/index-78aa67dd.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1097,7 +1135,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-f68daf33.js"
+      "OriginalItemSpec": "wwwroot\\assets\\index-78aa67dd.js"
     },
     {
       "Identity": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\payment-512c0d4d.png",
@@ -1117,6 +1155,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\payment-512c0d4d.png"
+    },
+    {
+      "Identity": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\ShippingView-5cb3bcd3.js",
+      "SourceId": "PlantsStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\",
+      "BasePath": "_content/PlantsStore",
+      "RelativePath": "assets/ShippingView-5cb3bcd3.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\ShippingView-5cb3bcd3.js"
+    },
+    {
+      "Identity": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\assets\\ShippingView-d2f330af.css",
+      "SourceId": "PlantsStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\",
+      "BasePath": "_content/PlantsStore",
+      "RelativePath": "assets/ShippingView-d2f330af.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\ShippingView-d2f330af.css"
     },
     {
       "Identity": "C:\\Users\\Кудин\\source\\repos\\TMS-NET-12\\PlantsStore\\App\\wwwroot\\favicon.ico",
