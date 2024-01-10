@@ -85,7 +85,7 @@
                       <div class="label" :style="{ background: v.stateColor }">{{ v.stateName }}</div>
                     </td>
                     <td class="collapsing">
-                      <i class="large icofont icofont-search-1 link icon" @click="activeOrder = v"></i>
+                      <i class="large icofont icofont-search-1 link icon" @click="activeUserModal = v"></i>
                     </td>
                   </tr>
                 </tbody>
@@ -155,6 +155,9 @@
     <transition name="fade" mode="out-in">
       <OrderDetailsModal :data="activeOrder" v-if="activeOrder" @close="activeOrder = null" :controllable="isAdmin" @state="setState" />
     </transition>
+    <transition name="fade" mode="out-in">
+      <OrderDetailsModal :data="activeUserOrder" v-if="activeUserOrder" @close="activeUserOrder = null" />
+    </transition>
   </main>
 </template>
 
@@ -187,6 +190,7 @@ export default {
       userData: null,
       activeTabType: TAB_DETAILS,
       activeOrder: null,
+      activeUserModal: null,
       TAB_DETAILS,
       TAB_ORDERS,
       TAB_WISHLIST,
