@@ -1,5 +1,4 @@
-﻿using App.Common.Exceptions;
-using App.Infrastructure.Dto;
+﻿using App.Infrastructure.Dto;
 using App.Infrastructure.Services;
 using Microsoft.AspNetCore.Mvc;
 
