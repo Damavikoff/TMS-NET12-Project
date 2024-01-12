@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <section class="bio grid centered">
+    <section class="bio centered">
       <div class="column">
         <div class="larger logo bolder icon header">
           <img src="@/assets/logo.png" alt="logo"><span class="green text">GREENSHOP</span>
@@ -31,7 +31,7 @@
         </div>
       </div>
     </section>
-    <section class="info grid">
+    <section class="info">
       <div class="column">
         <div class="menu vertical">
           <div class="header">About us</div>
@@ -118,7 +118,8 @@ export default {
       border-top: 1px solid var(--color-border-secondary);
     }
   }
-  .grid {
+  section {
+    display: flex;
     >.column {
       width: 22%;
       &:last-child {

@@ -1,5 +1,5 @@
 <template>
-  <div class="vertical flex centered h-full justify-center">
+  <div class="vertical flex centered h-screen justify-center">
     <div class="wrap">
       <div class="icon header">
         <i class="icofont icofont-skull-face"></i>

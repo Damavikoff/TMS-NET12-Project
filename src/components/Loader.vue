@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute w-full h-full flex centered loader">
+  <div class="flex centered loader">
     <i class="icofont icofont-spinner-alt-6"></i>
   </div>
 </template>
@@ -17,6 +17,10 @@ export default {
     z-index: 1000;
     justify-content: center;
     font-size: 7rem;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
     >i {
       animation: rotate 1.4s infinite linear;
       opacity: .7;
@@ -26,9 +30,7 @@ export default {
       background-color: rgba(255, 255, 255, .3);
     }
     &.fixed {
-      position: fixed;
-      top: 0;
-      left: 0;
+      position: fixed !important;
       width: 100vw;
       height: 100vh;
       z-index: 10;

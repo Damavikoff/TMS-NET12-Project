@@ -1,5 +1,5 @@
 <template>
-  <div class="vertical flex centered h-full justify-center">
+  <div class="vertical grow flex centered h-full justify-center">
     <div class="vertical flex items-center wrap">
       <div class="icon header">
         <i class="icofont icofont-vehicle-delivery-van"></i>

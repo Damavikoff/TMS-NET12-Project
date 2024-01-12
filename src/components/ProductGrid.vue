@@ -1,7 +1,7 @@
 <template>
   <div class="products" ref="main">
     <div class="h-full content">
-      <Loader v-if="!grid.ready || grid.loading"/>
+      <Loader class="w-full" v-if="!grid.ready || grid.loading"/>
       <template v-if="!grid.empty">
         <div class="shift" ref="shift"></div>
         <div class="sorting">
