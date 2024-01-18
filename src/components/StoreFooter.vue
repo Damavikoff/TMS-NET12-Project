@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <section class="bio centered">
+    <section class="bio flex centered">
       <div class="column">
         <div class="larger logo bolder icon header">
           <img src="@/assets/logo.png" alt="logo"><span class="green text">GREENSHOP</span>
@@ -95,7 +95,7 @@
         </div>
       </div>
     </section>
-    <section class="text-center copyrights">
+    <section class="justify-center copyrights">
       PlantsStore, © 2023 SharSchnitzel Inc. Wish I have all the Rights Reserved. :(
     </section>
   </footer>
